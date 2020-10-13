@@ -1,0 +1,16 @@
+.list_box {
+  display: flex;
+  .ranking {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    background-color: #424242;
+    color: white;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .moive_name {
+    padding: 0 10px;
+    font-size: 14px;
+  }
+}

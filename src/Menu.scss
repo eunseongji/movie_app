@@ -1,0 +1,31 @@
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+.menu {
+  display: flex;
+}
+.menu-box {
+  width: 100%;
+}
+.menu-item {
+  flex-grow: 1;
+  background: gray;
+  transition: 0.4s;
+  &:hover {
+    flex-grow: 1.5;
+    background: lightgray;
+  }
+}
+.menu-link {
+  display: block;
+  padding: 1em;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  &:hover {
+    color: white;
+  }
+}

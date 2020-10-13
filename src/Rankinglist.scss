@@ -1,0 +1,16 @@
+// .ranking_list {
+//   flex-basis: auto;
+//   height: 100%;
+//   background-color: gray;
+// }
+.ranking_list_box {
+  top: 10px;
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  .list_title {
+    display: flex;
+    justify-content: center;
+  }
+}
